@@ -69,13 +69,13 @@ $(window).smartresize(function () {
 // End Isotope Filtering
 
 
-/* -------- Gallery Popup -------- */
+/* -------- Gallery Popup -------- 
 $(document).ready(function(){
 	$('.gallery-zoom').magnificPopup({ 
 		type: 'image'
 		// other options
 	});
-});
+});*/
 // End Gallery Popup
 
 
@@ -119,14 +119,14 @@ function initMap(elem) {
 
 
 
-/* -------- Header 1 Nav -------- */
+/* -------- Header 1 Nav -------- 
 $(".headroom").headroom({
 });
-    
-/* -------- Header 3 Nav -------- */
-$(window).load(function() {
+    */
+/* -------- Header 3 Nav -------- 
+$(window).load(function() {*/
 	
-	/* -------- Header 3 Nav -------- */
+	/* -------- Header 3 Nav -------- 
 	$('.nav-slide-btn').click(function() {
 		$('.pull').slideToggle();
 	});
@@ -136,4 +136,4 @@ $(window).load(function() {
 document.querySelector("#nav-toggle").addEventListener("click", function() {
 	this.classList.toggle("active");
 });
-
+*/
